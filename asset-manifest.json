@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ContactManagerRedux/static/css/main.590819c5.css",
+    "main.js": "/ContactManagerRedux/static/js/main.8b06eaba.js",
+    "index.html": "/ContactManagerRedux/index.html",
+    "main.590819c5.css.map": "/ContactManagerRedux/static/css/main.590819c5.css.map",
+    "main.8b06eaba.js.map": "/ContactManagerRedux/static/js/main.8b06eaba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.590819c5.css",
+    "static/js/main.8b06eaba.js"
+  ]
+}
