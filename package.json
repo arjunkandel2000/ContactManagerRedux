@@ -2,10 +2,12 @@
   "name": "contactmanager",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://arjunkandel2000.github.io/ContactManagerRedux",
   "dependencies": {
     "axios": "^0.27.2",
     "bootstrap": "^4.1.2",
     "classnames": "^2.2.6",
+    "gh-pages": "^4.0.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-redux": "^5.0.7",
@@ -19,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
